@@ -1,0 +1,47 @@
+.mr-auto{
+    background-color: none
+}
+.navbar-nav{
+    background-color: transparent !important;
+}
+.navbar_header{
+    background-color: transparent !important;
+}
+.header_start{
+    background-color: #fff !important;
+}
+.navlink_header{
+    font-size: 16px !important;
+}
+.logo_header{
+    margin-right: 60px;
+}
+.button_header{
+    background-color: blue !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+.button_header:hover{
+    background-color: #fff !important;
+    color: blue !important;
+    border-color: blue !important;
+    transition: 0.3s ease-in-out !important;
+    
+}
+.button_header:focus{
+    background-color: none;
+    color: none;
+    border-color: none;
+}
+
+@media only screen and (max-width: 767px){
+    .header_start{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:990px){
+    .logo_header{
+        /* width: 100%; */
+    }
+}
